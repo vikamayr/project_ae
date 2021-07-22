@@ -1,0 +1,36 @@
+COCO original images
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.336
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.515
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.356
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.060
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.311
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.520
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.288
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.441
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.469
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.125
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.487
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.667
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.006710
+I0721 15:00:35.357481 139958549055360 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.006710
+INFO:tensorflow:	+ Loss/classification_loss: 0.384993
+I0721 15:00:35.358432 139958549055360 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.384993
+INFO:tensorflow:	+ Loss/regularization_loss: 0.029327
+I0721 15:00:35.359475 139958549055360 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.029327
+INFO:tensorflow:	+ Loss/total_loss: 0.421031
+------------------------------------------------------------------------------
+COCO image size 224x224
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.269
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.435
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.277
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.119
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.372
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.495
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.251
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.383
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.409
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.246
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.551
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.664
+------------------------------------------------------------------------------
