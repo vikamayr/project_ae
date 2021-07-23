@@ -1,0 +1,55 @@
+ ------------------------------------------------------------------------------
+ COCO original images
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.293
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.471
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.058
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.244
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.453
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.151
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.436
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.653
+
+INFO:tensorflow:	+ Loss/RPNLoss/localization_loss: 0.363934
+I0721 15:22:53.543383 140442639955840 model_lib_v2.py:1010] 	+ Loss/RPNLoss/localization_loss: 0.363934
+INFO:tensorflow:	+ Loss/RPNLoss/objectness_loss: 0.102111
+I0721 15:22:53.544400 140442639955840 model_lib_v2.py:1010] 	+ Loss/RPNLoss/objectness_loss: 0.102111
+INFO:tensorflow:	+ Loss/BoxClassifierLoss/localization_loss: 0.229493
+I0721 15:22:53.545438 140442639955840 model_lib_v2.py:1010] 	+ Loss/BoxClassifierLoss/localization_loss: 0.229493
+INFO:tensorflow:	+ Loss/BoxClassifierLoss/classification_loss: 0.250730
+I0721 15:22:53.546610 140442639955840 model_lib_v2.py:1010] 	+ Loss/BoxClassifierLoss/classification_loss: 0.250730
+INFO:tensorflow:	+ Loss/regularization_loss: 0.000000
+I0721 15:22:53.547658 140442639955840 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.000000
+INFO:tensorflow:	+ Loss/total_loss: 0.946269
+I0721 15:22:53.548664 140442639955840 model_lib_v2.py:1010] 	+ Loss/total_loss: 0.946269
+------------------------------------------------------------------------------
+COCO image size 224x224
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.203
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.339
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.211
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.072
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.290
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.414
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.224
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.354
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.381
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.211
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.533
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.660
+
+INFO:tensorflow:	+ Loss/RPNLoss/localization_loss: 0.478867
+I0721 15:44:00.178284 140363529344896 model_lib_v2.py:1010] 	+ Loss/RPNLoss/localization_loss: 0.478867
+INFO:tensorflow:	+ Loss/RPNLoss/objectness_loss: 0.189388
+I0721 15:44:00.179218 140363529344896 model_lib_v2.py:1010] 	+ Loss/RPNLoss/objectness_loss: 0.189388
+INFO:tensorflow:	+ Loss/BoxClassifierLoss/localization_loss: 0.249780
+I0721 15:44:00.180144 140363529344896 model_lib_v2.py:1010] 	+ Loss/BoxClassifierLoss/localization_loss: 0.249780
+INFO:tensorflow:	+ Loss/BoxClassifierLoss/classification_loss: 0.304016
+I0721 15:44:00.181066 140363529344896 model_lib_v2.py:1010] 	+ Loss/BoxClassifierLoss/classification_loss: 0.304016
+INFO:tensorflow:	+ Loss/regularization_loss: 0.000000
+I0721 15:44:00.181992 140363529344896 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.000000
+INFO:tensorflow:	+ Loss/total_loss: 1.222052
+I0721 15:44:00.182926 140363529344896 model_lib_v2.py:1010] 	+ Loss/total_loss: 1.222052
+------------------------------------------------------------------------------

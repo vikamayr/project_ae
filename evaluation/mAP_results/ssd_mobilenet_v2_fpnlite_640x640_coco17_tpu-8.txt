@@ -1,0 +1,38 @@
+ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8
+------------------------------------------------------------------------------
+COCO original images
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.281
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.462
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.300
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.073
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.255
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.409
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.258
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.413
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.445
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.446
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.593
+------------------------------------------------------------------------------
+COCO image size 224x224
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.192
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.329
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.199
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.077
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.261
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.354
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.208
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.329
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.354
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.195
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.471
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.578
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.269497
+I0723 12:59:35.536454 139738616399744 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.269497
+INFO:tensorflow:	+ Loss/classification_loss: 0.439724
+I0723 12:59:35.537526 139738616399744 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.439724
+INFO:tensorflow:	+ Loss/regularization_loss: 0.152508
+I0723 12:59:35.538575 139738616399744 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.152508
+INFO:tensorflow:	+ Loss/total_loss: 0.861729
+------------------------------------------------------------------------------
