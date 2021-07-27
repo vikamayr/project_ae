@@ -1,5 +1,6 @@
 ------------------------------------------------------------------------------
 COCO original images
+
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.202
 Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.349
 Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.204
@@ -23,6 +24,7 @@ INFO:tensorflow:	+ Loss/total_loss: 0.856441
 I0721 14:20:21.270917 139723768199040 model_lib_v2.py:1010] 	+ Loss/total_loss: 0.856441
 ------------------------------------------------------------------------------
 COCO image size 224x224
+
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.181
 Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.309
 Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.182
@@ -45,3 +47,101 @@ I0721 14:30:22.174041 140409611671424 model_lib_v2.py:1010] 	+ Loss/regularizati
 INFO:tensorflow:	+ Loss/total_loss: 0.998704
 I0721 14:30:22.174973 140409611671424 model_lib_v2.py:1010] 	+ Loss/total_loss: 0.998704
 ------------------------------------------------------------------------------
+Adversarial image mobilenet fgsm epsilon 0.05
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.111
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.194
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.109
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.017
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.145
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.319
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.152
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.231
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.242
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.065
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.354
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.570
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.414851
+I0725 13:46:50.234966 139977294403456 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.414851
+INFO:tensorflow:	+ Loss/classification_loss: 0.831393
+I0725 13:46:50.236038 139977294403456 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.831393
+INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
+I0725 13:46:50.237131 139977294403456 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.343024
+------------------------------------------------------------------------------
+Adversarial image mobilenet pgd epsilon 0.05
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.163
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.279
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.165
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.219
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.433
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.187
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.285
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.301
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.101
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.445
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.652
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.354281
+I0726 10:07:02.402194 140089551329152 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.354281
+INFO:tensorflow:	+ Loss/classification_loss: 0.617809
+I0726 10:07:02.403397 140089551329152 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.617809
+INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
+I0726 10:07:02.404560 140089551329152 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.068870
+I0726 10:07:02.405730 140089551329152 model_lib_v2.py:1010] 	+ Loss/total_loss: 1.068870
+------------------------------------------------------------------------------
+Adversarial image resnet50 fgsm epsilon 0.05
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.116
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.204
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.115
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.020
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.157
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.321
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.151
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.235
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.248
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.072
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.363
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.567
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.413907
+I0726 15:13:56.232595 140509489100672 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.413907
+INFO:tensorflow:	+ Loss/classification_loss: 0.812670
+I0726 15:13:56.233757 140509489100672 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.812670
+INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
+I0726 15:13:56.235000 140509489100672 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.323357
+I0726 15:13:56.236288 140509489100672 model_lib_v2.py:1010] 	+ Loss/total_loss: 1.323357
+------------------------------------------------------------------------------
+Adversarial image resnet50 pgd epsilon 0.05
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.163
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.281
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.164
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.033
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.220
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.430
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.189
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.288
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.305
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.103
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.448
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.668
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.354641
+I0726 15:26:29.299024 139700471854976 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.354641
+INFO:tensorflow:	+ Loss/classification_loss: 0.619112
+I0726 15:26:29.300286 139700471854976 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.619112
+INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
+I0726 15:26:29.301588 139700471854976 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.070533
+I0726 15:26:29.302905 139700471854976 model_lib_v2.py:1010] 	+ Loss/total_loss: 1.070533
+------------------------------------------------------------------------------
+Adversarial image efficientnet0 fgsm epsilon 0.05
+------------------------------------------------------------------------------
+Adversarial image efficientnet0 pgd epsilon 0.05
