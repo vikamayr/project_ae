@@ -1,3 +1,26 @@
+Mobilenet FGSM 0.02
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.159
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.273
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.158
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.213
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.427
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.186
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.282
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.298
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.098
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.441
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+
+INFO:tensorflow:	+ Loss/localization_loss: 0.356966
+I1102 15:21:22.139263 139779040274304 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.356966
+INFO:tensorflow:	+ Loss/classification_loss: 0.625661
+I1102 15:21:22.140486 139779040274304 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.625661
+INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
+I1102 15:21:22.141741 139779040274304 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.079407
+-------------------------------------------------------------------------------
 Mobilenet FGSM 0.1
 
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.048
@@ -21,28 +44,28 @@ INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
 I1102 14:56:35.779701 140381052725120 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
 INFO:tensorflow:	+ Loss/total_loss: 1.958741
 -------------------------------------------------------------------------------
-Mobilenet FGSM 0.02
+Mobilenet PGD 0.02
 
-Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.159
-Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.273
-Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.158
-Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
-Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.213
-Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.427
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.186
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.282
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.298
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.098
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.441
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.174
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.298
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.176
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.238
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.460
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.196
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.300
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.318
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.110
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.468
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.678
 
-INFO:tensorflow:	+ Loss/localization_loss: 0.356966
-I1102 15:21:22.139263 139779040274304 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.356966
-INFO:tensorflow:	+ Loss/classification_loss: 0.625661
-I1102 15:21:22.140486 139779040274304 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.625661
+INFO:tensorflow:	+ Loss/localization_loss: 0.340481
+I1102 15:55:11.802966 139857483511680 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.340481
+INFO:tensorflow:	+ Loss/classification_loss: 0.572499
+I1102 15:55:11.804204 139857483511680 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.572499
 INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
-I1102 15:21:22.141741 139779040274304 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
-INFO:tensorflow:	+ Loss/total_loss: 1.079407
+I1102 15:55:11.805459 139857483511680 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
+INFO:tensorflow:	+ Loss/total_loss: 1.009760
 
 -------------------------------------------------------------------------------
 Mobilenet PGD 0.1
@@ -68,27 +91,3 @@ INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
 I1102 15:41:02.804000 140006556993408 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
 INFO:tensorflow:	+ Loss/total_loss: 1.225494
 I1102 15:41:02.805198 140006556993408 model_lib_v2.py:1010] 	+ Loss/total_loss: 1.225494
-
--------------------------------------------------------------------------------
-Mobilenet PGD 0.02
-
-Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.174
-Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.298
-Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.176
-Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.034
-Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.238
-Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.460
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.196
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.300
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.318
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.110
-Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.468
-Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.678
-
-INFO:tensorflow:	+ Loss/localization_loss: 0.340481
-I1102 15:55:11.802966 139857483511680 model_lib_v2.py:1010] 	+ Loss/localization_loss: 0.340481
-INFO:tensorflow:	+ Loss/classification_loss: 0.572499
-I1102 15:55:11.804204 139857483511680 model_lib_v2.py:1010] 	+ Loss/classification_loss: 0.572499
-INFO:tensorflow:	+ Loss/regularization_loss: 0.096780
-I1102 15:55:11.805459 139857483511680 model_lib_v2.py:1010] 	+ Loss/regularization_loss: 0.096780
-INFO:tensorflow:	+ Loss/total_loss: 1.009760
