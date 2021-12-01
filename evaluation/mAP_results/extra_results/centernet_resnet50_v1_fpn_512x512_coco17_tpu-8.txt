@@ -195,3 +195,62 @@ I1129 11:21:18.308367 139707747260288 model_lib_v2.py:1010] 	+ Loss/box/offset: 
 INFO:tensorflow:	+ Loss/total_loss: 4.535299
 I1129 11:21:18.310635 139707747260288 model_lib_v2.py:1010] 	+ Loss/total_loss: 4.535299
 -------------------------------------------------------------------------------
+Mobilenet FGSM 0.02
+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.167
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.276
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.173
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.077
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.248
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.198
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.322
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.501
+INFO:tensorflow:Eval metrics at step 0
+I1201 12:58:14.128810 140690210588544 model_lib_v2.py:1007] Eval metrics at step 0
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP: 0.166988
+I1201 12:58:14.133507 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP: 0.166988
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP@.50IOU: 0.276281
+I1201 12:58:14.135277 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP@.50IOU: 0.276281
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP@.75IOU: 0.173389
+I1201 12:58:14.136843 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP@.75IOU: 0.173389
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP (small): 0.076693
+I1201 12:58:14.138279 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP (small): 0.076693
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP (medium): 0.257377
+I1201 12:58:14.140040 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP (medium): 0.257377
+INFO:tensorflow:	+ DetectionBoxes_Precision/mAP (large): 0.247664
+I1201 12:58:14.141858 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Precision/mAP (large): 0.247664
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@1: 0.197529
+I1201 12:58:14.143553 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@1: 0.197529
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@10: 0.322338
+I1201 12:58:14.145111 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@10: 0.322338
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@100: 0.339483
+I1201 12:58:14.146539 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@100: 0.339483
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@100 (small): 0.199112
+I1201 12:58:14.148081 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@100 (small): 0.199112
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@100 (medium): 0.446556
+I1201 12:58:14.149640 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@100 (medium): 0.446556
+INFO:tensorflow:	+ DetectionBoxes_Recall/AR@100 (large): 0.500876
+I1201 12:58:14.151333 140690210588544 model_lib_v2.py:1010] 	+ DetectionBoxes_Recall/AR@100 (large): 0.500876
+INFO:tensorflow:	+ Loss/object_center: 2.457211
+I1201 12:58:14.152488 140690210588544 model_lib_v2.py:1010] 	+ Loss/object_center: 2.457211
+INFO:tensorflow:	+ Loss/box/scale: 1.131599
+I1201 12:58:14.153685 140690210588544 model_lib_v2.py:1010] 	+ Loss/box/scale: 1.131599
+INFO:tensorflow:	+ Loss/box/offset: 0.470287
+I1201 12:58:14.154804 140690210588544 model_lib_v2.py:1010] 	+ Loss/box/offset: 0.470287
+INFO:tensorflow:	+ Loss/total_loss: 4.059097
+I1201 12:58:14.156014 140690210588544 model_lib_v2.py:1010] 	+ Loss/total_loss: 4.059097
+-------------------------------------------------------------------------------
+Mobilenet FGSM 0.1
+
+
+-------------------------------------------------------------------------------
+Mobilenet PGD 0.02
+
+
+-------------------------------------------------------------------------------
+Mobilenet PGD 0.1
+
