@@ -540,7 +540,7 @@ I1206 16:39:23.423606 139704240035712 model_lib_v2.py:1010] 	+ Loss/box/offset: 
 INFO:tensorflow:	+ Loss/total_loss: 3.846258
 I1206 16:39:23.424888 139704240035712 model_lib_v2.py:1010] 	+ Loss/total_loss: 3.846258
 -----------------------------------------------------------------------------------------
-ResNet50 PGD 0.02
+ResNet50 PGD 0.1
 
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.130
  Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.221
@@ -588,7 +588,3 @@ INFO:tensorflow:	+ Loss/box/offset: 0.474917
 I1206 17:00:14.720291 140695728535424 model_lib_v2.py:1010] 	+ Loss/box/offset: 0.474917
 INFO:tensorflow:	+ Loss/total_loss: 4.528037
 I1206 17:00:14.721563 140695728535424 model_lib_v2.py:1010] 	+ Loss/total_loss: 4.528037
-
------------------------------------------------------------------------------------------
-ResNet50 PGD 0.1
-
