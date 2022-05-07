@@ -2,9 +2,7 @@
 
 repository for thesis files without dataset
 
-## scripts examples
-
-1. Create tfrecords
+## Creating coco tfrecords from dataset
 	python .\create_coco_tf_record.py --logtostderr 
 		--train_image_dir ..\dataset\data\  
 		--val_image_dir ..\dataset\data\ 
