@@ -14,7 +14,7 @@ Datasets are not included here because of the size limits.
 - /annotations/labels_224 #for coco-224 dataset
 - /annotations/labels_original #for coco-original dataset (validation dataset)
 
-## Crafting scripts
+## Crafting Pipelines
 - ae_crafting_pipeline_efficientnet.ipynb
 - ae_crafting_pipeline_mobilenetv2.ipynb
 - ae_crafting_pipeline_resnet50.ipynb
